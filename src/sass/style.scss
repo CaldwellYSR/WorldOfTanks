@@ -14,6 +14,27 @@
     background: url("http://www.wallpapersxl.com/thumb/american-flag-x-hd-694225.jpg") no-repeat center center / cover;
     display: inline-block;
     position: relative;
+    &.ussr {
+        background-image: url("https://myloview.cz/fototapety/160/3D6D132/closeup-of-ussr-flag.jpg");
+    }
+    &.germany {
+        background-image: url("http://www.crwflags.com/fotw/images/d/de%5Ekrg2.gif");
+    }
+    &.uk {
+        background-image: url("http://trux.se/wp-content/uploads/2010/09/flag-uk.png");
+    }
+    &.france {
+        background-image: url("http://ajaregistrarsgroup.com/wp-content/uploads/2015/10/France_flag-9-160x100.jpg");
+    }
+    &.japan {
+        background-image: url("https://myloview.cz/fototapety/160/3D7458F/closeup-of-japan-flag.jpg");
+    }
+    &.china {
+        background-image: url("http://www.wallpapersxl.com/thumb/china-flag-360497.jpg");
+    }
+    &.czech {
+        background-image: url("https://t3.ftcdn.net/jpg/01/12/19/42/160_F_112194222_YyVW6v6ACp8dPKCCcc8bQiBiThLpFHSe.jpg");
+    }
     h3 {
         color: white;
         left: 5px;

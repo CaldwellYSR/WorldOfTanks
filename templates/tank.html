@@ -1,5 +1,5 @@
 <div class="tank">
-    <div class="badge">
+    <div class="badge {{ $ctrl.tank.nation }}">
         <img class='tankimg' ng-src='{{ $ctrl.tank.images.big_icon }}' alt='{{ $ctrl.tank.name }}' />
         <h3>{{ $ctrl.tank.short_name }}</h3>
     </div>
@@ -13,6 +13,30 @@
     <ul>
         <li ng-repeat="gun in $ctrl.tank.guns">
             <module moduleid="{{ gun }}" type="vehicleGun" nation="{{ $ctrl.tank.nation }}"></module>
+        </li>
+    </ul>
+    <h4>Turrets</h4>
+    <ul>
+        <li ng-repeat="turret in $ctrl.tank.turrets">
+            <module moduleid="{{ turret }}" type="vehicleTurret" nation="{{ $ctrl.tank.nation }}"></module>
+        </li>
+    </ul>
+    <h4>Radios</h4>
+    <ul>
+        <li ng-repeat="radio in $ctrl.tank.radios">
+            <module moduleid="{{ radio }}" type="vehicleRadio" nation="{{ $ctrl.tank.nation }}"></module>
+        </li>
+    </ul>
+    <h4>Engines</h4>
+    <ul>
+        <li ng-repeat="engine in $ctrl.tank.engines">
+            <module moduleid="{{ engine }}" type="vehicleEngine" nation="{{ $ctrl.tank.nation }}"></module>
+        </li>
+    </ul>
+    <h4>Suspension</h4>
+    <ul>
+        <li ng-repeat="chassis in $ctrl.tank.suspensions">
+            <module moduleid="{{ chassis }}" type="vehicleChassis" nation="{{ $ctrl.tank.nation }}"></module>
         </li>
     </ul>
 </div>
