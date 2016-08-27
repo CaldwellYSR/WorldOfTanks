@@ -1,4 +1,36 @@
-body {
-    background: #333;
-    color: #ddd;
+@mixin text-stroke($size, $color) {
+    text-shadow: $size $size 0 $color,
+                -$size $size 0 $color,
+                $size -$size 0 $color,
+                -$size -$size 0 $color;
+}
+
+[ng\:cloak],
+[ng-cloak],
+.ng-cloak{
+    display:none !important
+}
+.badge {
+    background: url("http://www.wallpapersxl.com/thumb/american-flag-x-hd-694225.jpg") no-repeat center center / cover;
+    display: inline-block;
+    position: relative;
+    h3 {
+        color: white;
+        left: 5px;
+        margin: 0;
+        position: absolute;
+        @include text-stroke(1px, #000);
+        top: 5px;
+    }
+}
+img {
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+    width: 35px;
+    &.tankimg {
+        display: block;
+        height: auto;
+        width: auto;
+    }
 }

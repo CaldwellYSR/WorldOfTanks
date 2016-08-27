@@ -1,0 +1,21 @@
+<div class="tank">
+    <div class="badge">
+        <img class='tankimg' ng-src='{{ $ctrl.tank.images.big_icon }}' alt='{{ $ctrl.tank.name }}' />
+        <h3>{{ $ctrl.tank.short_name }}</h3>
+    </div>
+    <h3>{{ $ctrl.tank.name }}</h3>
+    <div class='details'>
+        <h4><b>Tier {{ $ctrl.tank.tier }}</b> -- {{ $ctrl.tank.type }}</h4>
+        <img src='https://cdn4.iconfinder.com/data/icons/everything-rich-man-needs/512/22.png' alt='coins' /> {{ $ctrl.tank.price_credit }}
+        <p>{{ $ctrl.tank.description }}<p>
+    </div>
+    <!--
+    <h4>Guns</h4>
+    <ul>
+        <li ng-repeat="gun in $ctrl.tank.guns">
+            <module moduleid="gun" type="vehicleGun" nation="$ctrl.tank.nation"></module>
+        </li>
+    </ul>
+    -->
+</div>
+
