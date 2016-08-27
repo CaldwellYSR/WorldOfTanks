@@ -1,0 +1,3 @@
+angular.module("wot", []);
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1vZHVsZS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBIiwiZmlsZSI6ImFwcC5qcyIsInNvdXJjZXNDb250ZW50IjpbImFuZ3VsYXIubW9kdWxlKFwid290XCIsIFtdKTtcbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==
