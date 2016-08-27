@@ -9,13 +9,11 @@
         <img src='https://cdn4.iconfinder.com/data/icons/everything-rich-man-needs/512/22.png' alt='coins' /> {{ $ctrl.tank.price_credit }}
         <p>{{ $ctrl.tank.description }}<p>
     </div>
-    <!--
     <h4>Guns</h4>
     <ul>
         <li ng-repeat="gun in $ctrl.tank.guns">
-            <module moduleid="gun" type="vehicleGun" nation="$ctrl.tank.nation"></module>
+            <module moduleid="{{ gun }}" type="vehicleGun" nation="{{ $ctrl.tank.nation }}"></module>
         </li>
     </ul>
-    -->
 </div>
 
